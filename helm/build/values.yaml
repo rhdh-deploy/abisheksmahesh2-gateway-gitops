@@ -1,0 +1,15 @@
+app:
+  name: abisheksmahesh2-poi-gateway-app
+  namespace: abisheksmahesh2
+  cluster: .apps.a1jxqhzp.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-deploy/abisheksmahesh2-gateway
+  org: rhdh-deploy
+  name: abisheksmahesh2-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: abisheksmahesh2/poi-gateway-app
+  tag: latest
